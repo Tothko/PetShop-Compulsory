@@ -6,12 +6,17 @@ using Core;
 
 namespace Infrastrucute.Data
 {
-     class PetRepository : IPetRepository
+    class PetRepository : IPetRepository 
     {
+        
+    
+        
         public IEnumerable<Pet> ReadPets()
         {
-            throw new NotImplementedException();
+            return FakeDB.Pets;
         }
+
+       
     }
 
   

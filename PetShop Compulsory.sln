@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Entities", "Core.Entit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastrucute.Data", "Infrastrucute.Data\Infrastrucute.Data.csproj", "{DB54D7A9-5168-47B1-9EDC-803171477503}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{18F9CB13-5F1B-4D1C-955F-726E0F2BCE6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{350E22AA-6D44-4667-A28B-6FD45D743A29} = {18F9CB13-5F1B-4D1C-955F-726E0F2BCE6B}
+		{14E3865F-A921-4F33-B4E1-9C0EB7EA5862} = {18F9CB13-5F1B-4D1C-955F-726E0F2BCE6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09FF866D-49E0-4F70-944D-98139EDF18F4}
