@@ -16,7 +16,9 @@ namespace Infrastrucute.Data
 
         public static void InitData()
         {
-            for (int i = 0; i < 50; i++)
+            Random rnd = new Random();
+            Pets = new List<Pet>();
+            for (int i = 0; i < 8; i++)
             {
                 Pets.Add(
                 new Pet
@@ -28,8 +30,9 @@ namespace Infrastrucute.Data
                     SoldDate = System.DateTime.Now,
                     Color = "Orange",
                     PreviousOwner = "Marecek",
-                    Price = 500.00
-                });
+                    Price = rnd.Next(0, 1000)
+
+                }) ;
                     
             }
             

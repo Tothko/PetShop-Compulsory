@@ -10,5 +10,11 @@ namespace Core
     public interface IPetService
     {
         List<Pet> GetPets();
+        List<Pet> GetPetsByType(String type);
+        void CreatePet();
+        void DeletePet();
+        void SortPetsByPrice();
+        List<Pet> GetFiveCheapest();
+        void UpdatePet(int ID);
     }
 }

@@ -14,5 +14,11 @@ namespace Infrastrucute.Data
     public String PreviousOwner { get; set; }
     public double Price { get; set; }
 
-}
+        public override string ToString()
+        {
+            return "Pet name is: *" + Name + "* Pet tyoe is: *" + Type + "* Pet BirthDate is: *" + Birthdate + "* Pet SoldDate is: *" + SoldDate + 
+                "* Pet Color is: *"+ Color + "* Pet PreviuousOwner is: *" + PreviousOwner + "* Pet price is: *"+Price + "* " 
+                ;
+        }
+    }
 }

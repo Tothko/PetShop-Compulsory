@@ -6,7 +6,7 @@ using Core;
 
 namespace Infrastrucute.Data
 {
-    class PetRepository : IPetRepository 
+    public class PetRepository : IPetRepository 
     {
         
     

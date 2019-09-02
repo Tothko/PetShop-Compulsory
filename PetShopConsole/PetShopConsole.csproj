@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Infrastrucute.Data\Infrastrucute.Data.csproj" />
   </ItemGroup>
 
 </Project>
